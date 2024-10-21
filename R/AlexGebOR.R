@@ -1,9 +1,9 @@
 #' Calculate Odds Ratio with Confidence Intervals
 #'
-#' @param coef
-#' @param se
-#' @param siglevel
-#' @param roundto
+#' @param coef Coefficient Estimate from model summary output
+#' @param se Standard Error from model summary output
+#' @param siglevel Desired alpha/significance level
+#' @param roundto Preferred number of decimals for rounding
 #'
 #' @return
 #' @export
