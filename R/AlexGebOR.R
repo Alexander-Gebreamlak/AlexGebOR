@@ -5,10 +5,12 @@
 #' @param siglevel Desired alpha/significance level
 #' @param roundto Preferred number of decimals for rounding
 #'
-#' @return
+#' @return OR with CI
 #' @export
 #'
 #' @examples
+#' OR_95CI(2,1,0.95,3)
+#' "7.389 (6.940, 7.867)"
 #'
 OR_95CI <- function(coef, se, siglevel, roundto){
   q <- 1 - siglevel / 2
