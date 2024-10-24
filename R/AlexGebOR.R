@@ -26,3 +26,5 @@ OR_95CI <- function(coef, se, siglevel, roundto){
   )
   return(ORresult)
 }
+
+
